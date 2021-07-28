@@ -1,18 +1,24 @@
 #include <stdio.h>
-
-int add (int a,int b)
-{
-       return a +d b;
-}
+#include <assert.h>
 
 int multiply (int a,int b)
-return a *b;
+{
+    return a * b;
 }
+
+ int test ( )
+ {
+     assert(multiply(2,2) == 4);
+     assert(multiply(-3,2)== 6);
+ }
+
+
 
 int main (   )
 
 {
     printf ("Yoyo,little Ross!");
+    test();
     return 0
 }
 
