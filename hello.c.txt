@@ -1,7 +1,18 @@
 #include <stdio.h>
 
-int main（）
+int add (int a,int b)
 {
-       printf（“hello，world！”）；
-       return 0；
+       return a +d b;
 }
+
+int multiply (int a,int b)
+return a *b;
+}
+
+int main (   )
+
+{
+    printf ("Yoyo,little Ross!");
+    return 0
+}
+
